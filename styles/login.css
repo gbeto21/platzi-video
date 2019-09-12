@@ -1,11 +1,10 @@
 body {
     margin: 0px;
-    background-color: #8F57FD;
+    background:linear-gradient(#21C08B,#AB88FF);
     font-family: 'Muli', sans-serif;
 }
 
 .header {
-    background-color: #8F57FD;
     width: 100%;
     height: 80px;
     display: flex;

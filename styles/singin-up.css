@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+    background:linear-gradient(#21C08B,#AB88FF);
+    font-family: 'Muli', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__img {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.singin{
+    display: flex;
+    justify-content: center;
+    padding: 0px 30px;
+}
+
+.singin__container{
+    border: 2px white solid;
+    border-radius: 40px;
+    height: calc(100vh - 110px);
+    color: white;
+    padding: 60px 68px 40px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.singin__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.singin__form--text{
+    display: block;
+    border-bottom: 2px white solid;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    background: transparent;
+    color:white;
+    padding-left: 20px;
+    color: white;
+    font-size: 16px;
+    padding-bottom: 14px;
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    color:white;
+}
+
+.singin__btnsingin{
+    height: 50px;
+    color:white;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+    border:none;
+    font-size: 16px;
+    margin-bottom: 45px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.singin__btnlogin{
+    height: 35px;
+    color:white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* .singin__btnsingin :hover{
+    border: 1px red solid;
+} */
+
+/* .singin__btnsingin :hover,
+.singin__btnlogin :hover{
+    cursor: pointer;
+} */
+
+footer{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
