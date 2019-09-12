@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/login.css">
     <title>Buscador</title>
 </head>
 
 <style>
     body {
         margin: 0px;
-        background-color: #8F57FD;
+        background: #8F57FD;
         font-family: 'Muli', sans-serif;
     }
 
@@ -89,6 +90,14 @@
         font-size: 25px;
     }
 
+    .categories__title {
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        padding-left: 30px;
+        width: 100%;
+    }
+
     .input {
         background-color: rgba(255, 255, 255, 0.1);
         border: 2px solid white;
@@ -107,9 +116,8 @@
     }
 
     .carousel {
-        border: 3px solid red;
-        width: 100%;
-        overflow: scroll;
+        width: 95%;
+        /* overflow: scroll; */
         padding: 30px;
         position: relative;
     }
@@ -219,6 +227,8 @@
         <input class="input" type="text" placeholder="Buscar...">
     </section>
 
+    <h2 class="categories__title">Mi lista</h2>
+
     <section class="carousel">
         <div class="carousel__container">
             <div class="carousel-item">
@@ -303,7 +313,7 @@
                 </div>
             </div>
 
-            <div class="carousel-item">
+            <!-- <div class="carousel-item">
                 <img class="carousel-item__img"
                     src="https://images.pexels.com/photos/2698761/pexels-photo-2698761.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                     alt="Lights">
@@ -315,11 +325,225 @@
                     <p class="carousel-item__details--title">Título</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
                 </div>
-            </div>
+            </div> -->
 
         </div>
 
     </section>
+
+    <h2 class="categories__title">Tendencias</h2>
+
+    <section class="carousel">
+        <div class="carousel__container">
+            <div class="carousel-item">
+                <img class="carousel-item__img" src="img/ligths.jpg" alt="Lights">
+                <div class="carousel-item__details">
+                    <div>
+                        <img class="details_imag" src="icons/play.png" alt="Play">
+                        <img class="details_imag" src="icons/add.png" alt="Plus">
+                    </div>
+                    <p class="carousel-item__details--title">Título</p>
+                    <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="carousel-item__img"
+                    src="https://images.pexels.com/photos/2479312/pexels-photo-2479312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="Lights">
+                <div class="carousel-item__details">
+                    <div>
+                        <img class="details_imag" src="icons/play.png" alt="Play">
+                        <img class="details_imag" src="icons/add.png" alt="Plus">
+                    </div>
+                    <p class="carousel-item__details--title">Título</p>
+                    <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="carousel-item__img"
+                    src="https://images.pexels.com/photos/953182/pexels-photo-953182.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                    alt="Lights">
+                <div class="carousel-item__details">
+                    <div>
+                        <img class="details_imag" src="icons/play.png" alt="Play">
+                        <img class="details_imag" src="icons/add.png" alt="Plus">
+                    </div>
+                    <p class="carousel-item__details--title">Título</p>
+                    <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="carousel-item__img"
+                    src="https://images.pexels.com/photos/2858926/pexels-photo-2858926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="Lights">
+                <div class="carousel-item__details">
+                    <div>
+                        <img class="details_imag" src="icons/play.png" alt="Play">
+                        <img class="details_imag" src="icons/add.png" alt="Plus">
+                    </div>
+                    <p class="carousel-item__details--title">Título</p>
+                    <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="carousel-item__img"
+                    src="https://images.pexels.com/photos/1770803/pexels-photo-1770803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="Lights">
+                <div class="carousel-item__details">
+                    <div>
+                        <img class="details_imag" src="icons/play.png" alt="Play">
+                        <img class="details_imag" src="icons/add.png" alt="Plus">
+                    </div>
+                    <p class="carousel-item__details--title">Título</p>
+                    <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="carousel-item__img"
+                    src="https://images.pexels.com/photos/888894/pexels-photo-888894.jpeg?cs=srgb&dl=adult-beach-bright-888894.jpg&fm=jpg"
+                    alt="Lights">
+                <div class="carousel-item__details">
+                    <div>
+                        <img class="details_imag" src="icons/play.png" alt="Play">
+                        <img class="details_imag" src="icons/add.png" alt="Plus">
+                    </div>
+                    <p class="carousel-item__details--title">Título</p>
+                    <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
+                </div>
+            </div>
+
+            <!-- <div class="carousel-item">
+                <img class="carousel-item__img"
+                    src="https://images.pexels.com/photos/2698761/pexels-photo-2698761.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="Lights">
+                <div class="carousel-item__details">
+                    <div>
+                        <img class="details_imag" src="icons/play.png" alt="Play">
+                        <img class="details_imag" src="icons/add.png" alt="Plus">
+                    </div>
+                    <p class="carousel-item__details--title">Título</p>
+                    <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
+                </div>
+            </div> -->
+
+        </div>
+
+    </section>
+
+    <h2 class="categories__title">Originales de platzi</h2>
+
+    <section class="carousel">
+        <div class="carousel__container">
+            <div class="carousel-item">
+                <img class="carousel-item__img" src="img/ligths.jpg" alt="Lights">
+                <div class="carousel-item__details">
+                    <div>
+                        <img class="details_imag" src="icons/play.png" alt="Play">
+                        <img class="details_imag" src="icons/add.png" alt="Plus">
+                    </div>
+                    <p class="carousel-item__details--title">Título</p>
+                    <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="carousel-item__img"
+                    src="https://images.pexels.com/photos/2479312/pexels-photo-2479312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="Lights">
+                <div class="carousel-item__details">
+                    <div>
+                        <img class="details_imag" src="icons/play.png" alt="Play">
+                        <img class="details_imag" src="icons/add.png" alt="Plus">
+                    </div>
+                    <p class="carousel-item__details--title">Título</p>
+                    <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="carousel-item__img"
+                    src="https://images.pexels.com/photos/953182/pexels-photo-953182.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                    alt="Lights">
+                <div class="carousel-item__details">
+                    <div>
+                        <img class="details_imag" src="icons/play.png" alt="Play">
+                        <img class="details_imag" src="icons/add.png" alt="Plus">
+                    </div>
+                    <p class="carousel-item__details--title">Título</p>
+                    <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="carousel-item__img"
+                    src="https://images.pexels.com/photos/2858926/pexels-photo-2858926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="Lights">
+                <div class="carousel-item__details">
+                    <div>
+                        <img class="details_imag" src="icons/play.png" alt="Play">
+                        <img class="details_imag" src="icons/add.png" alt="Plus">
+                    </div>
+                    <p class="carousel-item__details--title">Título</p>
+                    <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="carousel-item__img"
+                    src="https://images.pexels.com/photos/1770803/pexels-photo-1770803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="Lights">
+                <div class="carousel-item__details">
+                    <div>
+                        <img class="details_imag" src="icons/play.png" alt="Play">
+                        <img class="details_imag" src="icons/add.png" alt="Plus">
+                    </div>
+                    <p class="carousel-item__details--title">Título</p>
+                    <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="carousel-item__img"
+                    src="https://images.pexels.com/photos/888894/pexels-photo-888894.jpeg?cs=srgb&dl=adult-beach-bright-888894.jpg&fm=jpg"
+                    alt="Lights">
+                <div class="carousel-item__details">
+                    <div>
+                        <img class="details_imag" src="icons/play.png" alt="Play">
+                        <img class="details_imag" src="icons/add.png" alt="Plus">
+                    </div>
+                    <p class="carousel-item__details--title">Título</p>
+                    <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
+                </div>
+            </div>
+
+            <!-- <div class="carousel-item">
+                <img class="carousel-item__img"
+                    src="https://images.pexels.com/photos/2698761/pexels-photo-2698761.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="Lights">
+                <div class="carousel-item__details">
+                    <div>
+                        <img class="details_imag" src="icons/play.png" alt="Play">
+                        <img class="details_imag" src="icons/add.png" alt="Plus">
+                    </div>
+                    <p class="carousel-item__details--title">Título</p>
+                    <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
+                </div>
+            </div> -->
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <a href="/">Términos de uso </a>
+        <a href="/">Declaración de privacidad </a>
+        <a href="/">Centro de ayuda </a>
+    </footer>
 
 </body>
 
