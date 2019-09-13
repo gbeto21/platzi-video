@@ -1,0 +1,28 @@
+.notFound{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    height: calc(100vh - 183px);
+    color:white;
+}
+
+h1{
+    font-size: 4em;
+    text-align: center;
+    animation-duration: 4.0s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: pulse;
+}
+
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(2.1);}
+    100% {transform: scale(1);}
+}
+
+h3{
+    font-size: 2em;
+    text-align: center;
+}
